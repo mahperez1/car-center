@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1zORoxIPLibWo1px+Rfr/sW1X/KrTxDqlyyeHV1AeZn6m4mHfbjprFtp3ubYUutfnZY747JzK24ufTP7GCaz8w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mhuertas\\Desktop\\backend\\Utilitarios\\Utilitarios.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mhuertas\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

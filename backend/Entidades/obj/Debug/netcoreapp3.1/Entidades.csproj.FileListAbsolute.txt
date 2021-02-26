@@ -1,0 +1,17 @@
+C:\Users\mhuertas\source\repos\backend\Entidades\bin\Debug\netcoreapp3.1\Entidades.deps.json
+C:\Users\mhuertas\source\repos\backend\Entidades\bin\Debug\netcoreapp3.1\Entidades.dll
+C:\Users\mhuertas\source\repos\backend\Entidades\bin\Debug\netcoreapp3.1\Entidades.pdb
+C:\Users\mhuertas\source\repos\backend\Entidades\obj\Debug\netcoreapp3.1\Entidades.csprojAssemblyReference.cache
+C:\Users\mhuertas\source\repos\backend\Entidades\obj\Debug\netcoreapp3.1\Entidades.AssemblyInfoInputs.cache
+C:\Users\mhuertas\source\repos\backend\Entidades\obj\Debug\netcoreapp3.1\Entidades.AssemblyInfo.cs
+C:\Users\mhuertas\source\repos\backend\Entidades\obj\Debug\netcoreapp3.1\Entidades.dll
+C:\Users\mhuertas\source\repos\backend\Entidades\obj\Debug\netcoreapp3.1\Entidades.pdb
+C:\Users\mhuertas\Desktop\backend\Entidades\bin\Debug\netcoreapp3.1\Entidades.deps.json
+C:\Users\mhuertas\Desktop\backend\Entidades\bin\Debug\netcoreapp3.1\Entidades.dll
+C:\Users\mhuertas\Desktop\backend\Entidades\bin\Debug\netcoreapp3.1\Entidades.pdb
+C:\Users\mhuertas\Desktop\backend\Entidades\obj\Debug\netcoreapp3.1\Entidades.csprojAssemblyReference.cache
+C:\Users\mhuertas\Desktop\backend\Entidades\obj\Debug\netcoreapp3.1\Entidades.AssemblyInfoInputs.cache
+C:\Users\mhuertas\Desktop\backend\Entidades\obj\Debug\netcoreapp3.1\Entidades.AssemblyInfo.cs
+C:\Users\mhuertas\Desktop\backend\Entidades\obj\Debug\netcoreapp3.1\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\mhuertas\Desktop\backend\Entidades\obj\Debug\netcoreapp3.1\Entidades.dll
+C:\Users\mhuertas\Desktop\backend\Entidades\obj\Debug\netcoreapp3.1\Entidades.pdb

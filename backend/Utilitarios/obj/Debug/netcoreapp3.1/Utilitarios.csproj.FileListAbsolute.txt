@@ -1,0 +1,17 @@
+C:\Users\mhuertas\source\repos\backend\Utilitarios\bin\Debug\netcoreapp3.1\Utilitarios.deps.json
+C:\Users\mhuertas\source\repos\backend\Utilitarios\bin\Debug\netcoreapp3.1\Utilitarios.dll
+C:\Users\mhuertas\source\repos\backend\Utilitarios\obj\Debug\netcoreapp3.1\Utilitarios.AssemblyInfoInputs.cache
+C:\Users\mhuertas\source\repos\backend\Utilitarios\obj\Debug\netcoreapp3.1\Utilitarios.AssemblyInfo.cs
+C:\Users\mhuertas\source\repos\backend\Utilitarios\bin\Debug\netcoreapp3.1\Utilitarios.pdb
+C:\Users\mhuertas\source\repos\backend\Utilitarios\obj\Debug\netcoreapp3.1\Utilitarios.csprojAssemblyReference.cache
+C:\Users\mhuertas\source\repos\backend\Utilitarios\obj\Debug\netcoreapp3.1\Utilitarios.dll
+C:\Users\mhuertas\source\repos\backend\Utilitarios\obj\Debug\netcoreapp3.1\Utilitarios.pdb
+C:\Users\mhuertas\Desktop\backend\Utilitarios\bin\Debug\netcoreapp3.1\Utilitarios.deps.json
+C:\Users\mhuertas\Desktop\backend\Utilitarios\bin\Debug\netcoreapp3.1\Utilitarios.dll
+C:\Users\mhuertas\Desktop\backend\Utilitarios\bin\Debug\netcoreapp3.1\Utilitarios.pdb
+C:\Users\mhuertas\Desktop\backend\Utilitarios\obj\Debug\netcoreapp3.1\Utilitarios.csprojAssemblyReference.cache
+C:\Users\mhuertas\Desktop\backend\Utilitarios\obj\Debug\netcoreapp3.1\Utilitarios.AssemblyInfoInputs.cache
+C:\Users\mhuertas\Desktop\backend\Utilitarios\obj\Debug\netcoreapp3.1\Utilitarios.AssemblyInfo.cs
+C:\Users\mhuertas\Desktop\backend\Utilitarios\obj\Debug\netcoreapp3.1\Utilitarios.csproj.CoreCompileInputs.cache
+C:\Users\mhuertas\Desktop\backend\Utilitarios\obj\Debug\netcoreapp3.1\Utilitarios.dll
+C:\Users\mhuertas\Desktop\backend\Utilitarios\obj\Debug\netcoreapp3.1\Utilitarios.pdb

@@ -1,0 +1,92 @@
+<div class="ibox-content">
+        <p>Formulario para crear una persona.</p>
+
+        <form [formGroup]="this.personaForm" >
+            <div class="form-group row"><label class="col-lg-2 col-form-label">Primer nombre:</label>
+                <div class="col-lg-10"><input type="text" placeholder="primer nombre" class="form-control" formControlName="primerNombre"> 
+                    <div *ngIf="personaForm.get('primerNombre').touched">
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('primerNombre').hasError('required')"> El campo es requerido<br/></small>
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('primerNombre').hasError('minlength')"> El campo debe contener mínimo 5 caracteres<br/></small>
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('primerNombre').hasError('maxlength')"> El campo debe contener máximo 50 caracteres<br/></small>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row"><label class="col-lg-2 col-form-label">Segundo nombre:</label>
+                <div class="col-lg-10"><input type="text" placeholder="segundo nombre" class="form-control" formControlName="segundoNombre"> 
+                    <div *ngIf="personaForm.get('segundoNombre').touched">
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('segundoNombre').hasError('required')"> El campo es requerido<br/></small>
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('segundoNombre').hasError('minlength')"> El campo debe contener mínimo 5 caracteres<br/></small>
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('segundoNombre').hasError('maxlength')"> El campo debe contener máximo 50 caracteres<br/></small>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row"><label class="col-lg-2 col-form-label">Primer apellido:</label>
+                <div class="col-lg-10"><input type="text" placeholder="Primer apellido" class="form-control" formControlName="primerApellido"> 
+                    <div *ngIf="personaForm.get('primerApellido').touched">
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('primerApellido').hasError('required')"> El campo es requerido<br/></small>
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('primerApellido').hasError('minlength')"> El campo debe contener mínimo 5 caracteres<br/></small>
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('primerApellido').hasError('maxlength')"> El campo debe contener máximo 50 caracteres<br/></small>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row"><label class="col-lg-2 col-form-label">Segundo Apellido:</label>
+                <div class="col-lg-10"><input type="text" placeholder="Segundo Apellido" class="form-control" formControlName="segundoApellido"> 
+                    <div *ngIf="personaForm.get('segundoApellido').touched">
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('segundoApellido').hasError('required')"> El campo es requerido<br/></small>
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('segundoApellido').hasError('minlength')"> El campo debe contener mínimo 5 caracteres<br/></small>
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('segundoApellido').hasError('maxlength')"> El campo debe contener máximo 50 caracteres<br/></small>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row"><label class="col-lg-2 col-form-label">Tipo de documento:</label>
+                <div class="col-lg-10">
+                    <select class="form-control m-b" name="account">
+                        <option *ngFor="let documento of cmbtipodocumento" [value]="documento.id" >{{documento.nombre}}</option>
+                        
+                    </select>
+                    <span class="form-text m-b-none" *ngIf="false">Example block-level help text here.</span>
+                </div>
+            </div>
+            <div class="form-group row"><label class="col-lg-2 col-form-label">Numero de documento:</label>
+                <div class="col-lg-10"><input type="text" placeholder="Numero de documento" class="form-control" formControlName="numeroDocumento"> 
+                    <div *ngIf="personaForm.get('numeroDocumento').touched">
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('numeroDocumento').hasError('required')"> El campo es requerido<br/></small>
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('numeroDocumento').hasError('minlength')"> El campo debe contener mínimo 7 caracteres<br/></small>
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('numeroDocumento').hasError('maxlength')"> El campo debe contener máximo 10 caracteres<br/></small>
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('numeroDocumento').hasError('pattern')"> El campo debe ser numérico<br/></small>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row"><label class="col-lg-2 col-form-label">Celular:</label>
+                <div class="col-lg-10"><input type="text" placeholder="Celular" class="form-control"  formControlName="celular"> 
+                    <div *ngIf="personaForm.get('celular').touched">
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('celular').hasError('required')"> El campo es requerido<br/></small>
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('celular').hasError('minlength')"> El campo debe contener mínimo 7 caracteres<br/></small>
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('celular').hasError('maxlength')"> El campo debe contener máximo 10 caracteres<br/></small>
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('celular').hasError('pattern')"> El campo debe ser numérico<br/></small>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row"><label class="col-lg-2 col-form-label">Direccion:</label>
+                <div class="col-lg-10"><input type="text" placeholder="Direccion" class="form-control" formControlName="direccion"> 
+                    <div *ngIf="personaForm.get('direccion').touched">
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('direccion').hasError('required')"> El campo es requerido<br/></small>
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('direccion').hasError('minlength')"> El campo debe contener mínimo 5 caracteres<br/></small>
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('direccion').hasError('maxlength')"> El campo debe contener máximo 50 caracteres<br/></small>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row"><label class="col-lg-2 col-form-label">Email:</label>
+                <div class="col-lg-10"><input type="email" placeholder="Email" class="form-control" formControlName="correo"> 
+                    <div *ngIf="personaForm.get('correo').touched">
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('correo').hasError('required')"> El campo es requerido<br/></small>
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('correo').hasError('minlength')"> El campo debe contener mínimo 5 caracteres<br/></small>
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('correo').hasError('maxlength')"> El campo debe contener máximo 50 caracteres<br/></small>
+                        <small class="form-text m-b-none" *ngIf="personaForm.get('correo').hasError('email')"> El formato del correo es incorrecto<br/></small>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group "><button type="button" class="btn btn-w-m btn-primary" >Actualizar</button></div>
+            <div class="form-group "><button type="button" class="btn btn-w-m btn-success"(click)="crearPersona()">Crear</button></div>
+        </form>
+</div>
